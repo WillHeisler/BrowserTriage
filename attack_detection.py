@@ -448,7 +448,7 @@ class ThreatCategoryDetector:
         self.malware_indicators = {
             'suspicious_file_extensions': [
                 # Unencoded patterns
-                r'\.(exe|scr|bat|cmd|com|pif|vbs|js|jar|apk|dmg)(\?|$)',
+                r'\.(exe|scr|bat|cmd|com|pif|vbs|js|jar|apk|dmg|ps1|sh|py)(\?|$)',
                 r'\.(zip|rar|7z|tar\.gz).*\.(exe|scr|bat)',  # Archive with executable
                 
                 # URL encoded patterns
