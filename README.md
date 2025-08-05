@@ -365,7 +365,24 @@ This tool was developed as part of security research. Contributions welcome for:
 
 ## 📄 License
 
-This project is provided for educational and research purposes. Please ensure compliance with applicable laws and organizational policies when using this tool.
+## License & Usage
+
+BrowserTriage is licensed under the GNU General Public License v3.0.
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+### ✅ You CAN:
+- Use this tool for any purpose (personal, commercial, enterprise)
+- Modify and distribute the code
+- Charge for services using this tool
+
+### ❌ You CANNOT:
+- Create proprietary (closed-source) versions
+- Remove copyright notices
+- Distribute without providing source code
+
+### For Enterprises:
+This tool is completely free to use in your security operations. The GPL license only affects you if you modify and redistribute the code - using the tool itself has no restrictions.
 
 ---
 
