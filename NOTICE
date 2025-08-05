@@ -1,0 +1,12 @@
+BrowserTriage
+Copyright (C) 2024 Will Heisler
+
+This product includes software developed by Will Heisler.
+
+Third-party components:
+- pypsrp: MIT License
+- paramiko: LGPL v2.1+
+- vt-py: Apache License 2.0
+- requests: Apache License 2.0
+
+See individual source files and the LICENSE file for complete license information.
